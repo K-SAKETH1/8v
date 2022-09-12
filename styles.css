@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@700&family=Montserrat+Alternates:wght@600&display=swap');
+body{
+    background-image: url("./sahara.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 3%;
+    font-family: 'Montserrat Alternates' , sans-serif;
+}
+h4{
+    color: #F0BB62;
+}
+li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+a{
+    text-decoration: none;
+    color: #F0BB62;
+    transition: all 1s ease 0s;
+}
+a:hover{
+    color: #fff;
+    font-size: 1.2rem;
+}
+h1{
+    font-size: 4rem;
+    color: #fff;
+    font-family: 'Catamaran', sans-serif;
+}
+p{
+    color: #fff;
+    font-family: 'Montserrat Alternates' , sans-serif;
+font-weight: 200;
+}
+.bu button{
+    padding: 0.8%;
+    width: 130px;
+    border: #fff;
+    border-radius: 25px;
+    font-size: 1.3rem;
+    transition: all 0.5s ease 0s;
+}
+.bu button:hover,.bu button:focus{
+    background-color: #F0BB62;
+    color: #4C0033;
+    width: 150px;
+    font-size: 1.5rem;
+}
+.bu{
+    text-align: center;
+    padding: 2%;
+}
+.ru{
+    padding: 30%;
+}
+.sa{
+    display: flex;
+}
+.content{
+    width: 50%;
+    padding: 15% 3%;
+    display: inline-block;
+}
+.vu{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    border: #F0BB62;
+    display: inline-block;
+    transition: all 1s ease 0s;
+}
+.card{
+    display: inline-block;
+}
+.du{
+    display: inline-block;
+    padding: 5% 5% 1.5%;
+}
+.container{
+    width: 50%;
+    display: inline-block;
+    padding: 3% 3%;
+}
+.vu:hover , .vu:focus{
+    width: 230px;
+    height: 280px;
+    cursor: grab;
+}
+.tu , .hu{
+    display: inline-block;
+}
+.hu{
+    padding: 0% 5% 1.5%;
+}
+@media screen and (min-width:300px) and (max-width:950px) {
+    body{
+        height: 100%;
+    }
+    header{
+        padding: 20px 0%;
+    }
+    .content{
+        width: 100%;
+        text-align: center;
+    }
+    #yu{
+        display: block;
+    }
+    .container{
+        width: 100%;
+        text-align: center;
+    }
+    .sa{
+        display: block;
+    }
+    .du{
+        padding: 2%;
+    }
+    .hu{
+        padding: 2%;
+    }
+}
